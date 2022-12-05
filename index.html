@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kelvin Nguyen | Portfolio</title> 
+    <script src="https://kit.fontawesome.com/8c2724d12d.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  <header class="header">
+    <div class="container-fluid" id="navbar">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+          <a class="navbar-brand" href="#intro">Kelvin Nguyen</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#intro">About Me</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#education">Education</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#experience">Experience</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="files/NguyenKelvin_Resume_9_22.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+        </div>
+        </nav>
+    </div>
+  </header>
+  <body>
+    <!-- Intro -->
+    <section id="intro">
+      <div class="container text-center" id="name">
+        <img id="headshot" src="img/headshot.jpg" alt="Headshot of me">
+        <h1>Kelvin Nguyen</h1>
+        <h3>Data Science Student @ UC San Diego</h3>
+      </div>
+      <div class="text-center container" id="about-me">
+        <p>Hi! I'm Kelvin Nguyen, a junior at UC San Diego majoring in Data Science and minoring in Cognitive Science. I'm interested in all things data and am particularly
+          interested in enabling users to make the most out of all the data around them. Outside of data science, I enjoy playing tennis, hanging out with friends, and building
+          mechanical keyboards.
+        </p>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+      <div class="container">
+        <h2 class="text-center">Education</h2>
+        <div class="alignleft">
+          <h4>Bachelor of Science</h4>
+          <h5>University of California, San Diego</h5>
+          <p style="font-style: italic">Data Science</p>
+        </div>
+        <div class="alignright">
+          <p class="date">Sep 2020 - Exp: Jun 2024</p>
+          <p>La Jolla, CA</p>
+          <p>GPA: 3.59</p>
+        </div>
+        <div class="alignleft">
+          <p>Relevant Coursework: Linear Algebra, Foundations of Data Science, 
+            Statistical Methods, Data Structures & Algorithms, Multivariable Calculus, 
+            Practice & Application of Data Science, Data Management, Recommender Systems,
+            Data Mining</p>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+      <div class="container">
+        <h2 class="text-center">Experience</h2>
+        <div class="alignleft"> 
+          <h4>Project Lead</h4>
+          <h5>Data Science Student Society (DS3) @ UCSD</h5>
+          <ul id="duties">
+            <li>Organized and facilitated weekly meetings consisting of progress updates, improvements to model, etc.</li>
+            <li>Coordinated with Projects Committee mentor to determine best course of action in moving forward with each step of the project</li>
+            <li>Developed structure & timeline of project from formation of hypotheses & dataset sourcing to completion of various ML models</li>
+          </ul>
+        </div>
+        <div class="alignright">
+          <p class="date">Jan 2022 - Jun 2022</p>
+          <p>La Jolla, CA</p>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <div id="projects" class="container text-center">
+        <h2>Projects</h2>
+          <div class="row row-cols-1 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card h-100">
+                <img src="img/outages.png" class="card-img-top" alt="Depiction of internet outages using a globe">        
+                <div class="card-body">
+                  <h5 class="card-title">Predicting Internet Outages</h5>
+                  <p class="card-text">A machine learning model that predicts the occurrence of an outage & its severity.</p>
+                  <a href="https://github.com/kelvinnguyenn/streamlit_app" target="_blank" rel="noopener noreferrer" class="btn btn-dark">
+                    <i class="fa-brands fa-github"></i>
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="img/citations.jpg" class="card-img-top" alt="Golden Gate Bridge">
+                <div class="card-body">
+                  <h5 class="card-title">San Francisco Citations Analysis</h5>
+                  <p class="card-text">An EDA of the SF MTA's Parking Citations dataset, tracking general trends in parking citations.</p>
+                  <a href="https://github.com/kelvinnguyenn/sf_citations_eda" target="_blank" rel="noopener noreferrer" class="btn btn-dark">
+                    <i class="fa-brands fa-github"></i>
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="img/housereps.jpg" class="card-img-top" alt="U.S. Capitol">
+                <div class="card-body">
+                  <h5 class="card-title">House of Reps Stock Classifier</h5>
+                  <p class="card-text">A classifier that attempts to predict actions from members of the House of Representatives.</p>
+                  <a href="https://github.com/kelvinnguyenn/houserep_eda_model" target="_blank" rel="noopener noreferrer" class="btn btn-dark">
+                    <i class="fa-brands fa-github"></i>
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="container text-center">
+        <h2>Skills</h2>
+        <div class="row">
+          <div class="col">
+            <i class="skills-icon fa-brands fa-python fa-3x"></i>
+            <br>
+            <p class="skillstext">Python</p>
+          </div>
+          <div class="col">
+            <i class="skills-icon fa-brands fa-java fa-3x"></i>
+            <br>
+            <p class="skillstext">Java</p>
+          </div>
+          <div class="col">
+            <i class="skills-icon fa-brands fa-html5 fa-3x"></i>
+            <br>
+            <p class="skillstext">HTML</p>
+          </div>
+          <div class="col">
+            <i class="skills-icon fa-brands fa-css3-alt fa-3x"></i>
+            <br>
+            <p class="skillstext">CSS</p>
+          </div>
+          <div class="col">
+            <i class="skills-icon fa-brands fa-square-js fa-3x"></i>
+            <br>
+            <p class="skillstext">JavaScript</p>
+          </div>
+          <div class="col">
+            <i class="skills-icon fa-solid fa-database fa-3x"></i>
+            <br>
+            <p class="skillstext">SQL (PostgreSQL, SQLite)</p>
+          </div>
+
+        </div>
+        
+      </div>
+    </section>
+  
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container text-center">
+      <h2>Contact</h2>
+        <p>Feel free to contact me or check out any of my work at the below links!</p>
+        <a href="mailto:kelvinnguyen514@gmail.com"><i class="contact-icon fa-solid fa-square-envelope fa-3x"></i></a>
+        <a href="https://www.linkedin.com/in/kelvinnguyenn/" target="_blank" rel="noopener noreferrer"><i class="contact-icon fa-brands fa-linkedin fa-3x"></i></a>
+        <a href="https://github.com/kelvinnguyenn" target="_blank" rel="noopener noreferrer"><i class="contact-icon fa-brands fa-square-github fa-3x"></i></a>
+      </div>
+    </section>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
